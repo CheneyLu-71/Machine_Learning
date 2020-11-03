@@ -26,7 +26,6 @@ class fib_iterator():
         else:
             raise StopIteration  # 在循环对象穷尽所有元素时进行报错
 
-
 if __name__ == "__main__":
     n = int(input("Please enter an integer:"))
     result_iter = []   # n小于等于0时，只输出第0项数字
