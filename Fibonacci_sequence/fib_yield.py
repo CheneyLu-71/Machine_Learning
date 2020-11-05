@@ -5,7 +5,7 @@
 
 # 定义一个生成器函数
 
-def fib_yield(n):   # 可以去掉n的限制，在使用的时候，需要多少项，再调用
+def fib_yield(n):   
     f0, f1 = 0, 1   # 记录前两个数字
 
     while n > 0:
